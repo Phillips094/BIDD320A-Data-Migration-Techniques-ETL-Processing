@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{FB20D35B-4E3D-4548-B616-9172CC8886BF}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\BISolutionWorksheets.xlsx = Documents\BISolutionWorksheets.xlsx
+		Documents\TheETLFinal.doc = Documents\TheETLFinal.doc
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{E02419D0-DC35-464D-9BBF-B0EDA4B33945}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\00-Create DWClinicReportData.sql = Scripts\00-Create DWClinicReportData.sql
+		Scripts\01-Milestone01-FileETLCode.sql = Scripts\01-Milestone01-FileETLCode.sql
+		Scripts\02-Milestone02-DWETLCode.sql = Scripts\02-Milestone02-DWETLCode.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceDatabases", "SourceDatabases", "{C15B908B-277C-4113-B598-BF716823F5F9}"
+	ProjectSection(SolutionItems) = preProject
+		SourceDatabases\DoctorsSchedules.bak = SourceDatabases\DoctorsSchedules.bak
+		SourceDatabases\Patients.bak = SourceDatabases\Patients.bak
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reports", "Reports", "{D9EC4939-3BF6-4038-A9CB-AEF017A092A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataFiles", "DataFiles", "{F44DE469-CCC0-4F7A-9F78-208E62D0B4DC}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ETLFinalSSISPackages", "ETLFinalSSISPackages\ETLFinalSSISPackages.dtproj", "{B6141F77-B468-4680-826A-4F7F454175CE}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ETLFinalDashboards", "ETLFinalDashboards\ETLFinalDashboards.rptproj", "{40307D31-96A5-43FD-BFF3-919586133E94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClinicDailyData", "ClinicDailyData", "{A9F33119-8C8E-4681-A06A-719A9D72B0C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bellevue", "Bellevue", "{42AC38BA-928F-481D-A073-80CB3173E10D}"
+	ProjectSection(SolutionItems) = preProject
+		DataFiles\ClinicDailyData\Bellevue\20100102NewPatients.csv = DataFiles\ClinicDailyData\Bellevue\20100102NewPatients.csv
+		DataFiles\ClinicDailyData\Bellevue\20100102Visits.csv = DataFiles\ClinicDailyData\Bellevue\20100102Visits.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kirkland", "Kirkland", "{F2E52A90-52A1-460F-92D6-0646200481C3}"
+	ProjectSection(SolutionItems) = preProject
+		DataFiles\ClinicDailyData\Kirkland\20100102NewPatients.csv = DataFiles\ClinicDailyData\Kirkland\20100102NewPatients.csv
+		DataFiles\ClinicDailyData\Kirkland\20100102Visits.csv = DataFiles\ClinicDailyData\Kirkland\20100102Visits.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redmond", "Redmond", "{EF14E139-C400-4185-BF83-2C46ACCE0561}"
+	ProjectSection(SolutionItems) = preProject
+		DataFiles\ClinicDailyData\Redmond\20100102NewPatients.csv = DataFiles\ClinicDailyData\Redmond\20100102NewPatients.csv
+		DataFiles\ClinicDailyData\Redmond\20100102Visits.csv = DataFiles\ClinicDailyData\Redmond\20100102Visits.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Development|Default = Development|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6141F77-B468-4680-826A-4F7F454175CE}.Debug|Default.ActiveCfg = Development
+		{B6141F77-B468-4680-826A-4F7F454175CE}.Debug|Default.Build.0 = Development
+		{B6141F77-B468-4680-826A-4F7F454175CE}.DebugLocal|Default.ActiveCfg = Development
+		{B6141F77-B468-4680-826A-4F7F454175CE}.DebugLocal|Default.Build.0 = Development
+		{B6141F77-B468-4680-826A-4F7F454175CE}.Development|Default.ActiveCfg = Development
+		{B6141F77-B468-4680-826A-4F7F454175CE}.Development|Default.Build.0 = Development
+		{B6141F77-B468-4680-826A-4F7F454175CE}.Release|Default.ActiveCfg = Development
+		{B6141F77-B468-4680-826A-4F7F454175CE}.Release|Default.Build.0 = Development
+		{40307D31-96A5-43FD-BFF3-919586133E94}.Debug|Default.ActiveCfg = Debug
+		{40307D31-96A5-43FD-BFF3-919586133E94}.Debug|Default.Build.0 = Debug
+		{40307D31-96A5-43FD-BFF3-919586133E94}.Debug|Default.Deploy.0 = Debug
+		{40307D31-96A5-43FD-BFF3-919586133E94}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{40307D31-96A5-43FD-BFF3-919586133E94}.DebugLocal|Default.Build.0 = DebugLocal
+		{40307D31-96A5-43FD-BFF3-919586133E94}.Development|Default.ActiveCfg = DebugLocal
+		{40307D31-96A5-43FD-BFF3-919586133E94}.Development|Default.Build.0 = DebugLocal
+		{40307D31-96A5-43FD-BFF3-919586133E94}.Release|Default.ActiveCfg = Release
+		{40307D31-96A5-43FD-BFF3-919586133E94}.Release|Default.Build.0 = Release
+		{40307D31-96A5-43FD-BFF3-919586133E94}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9F33119-8C8E-4681-A06A-719A9D72B0C8} = {F44DE469-CCC0-4F7A-9F78-208E62D0B4DC}
+		{42AC38BA-928F-481D-A073-80CB3173E10D} = {A9F33119-8C8E-4681-A06A-719A9D72B0C8}
+		{F2E52A90-52A1-460F-92D6-0646200481C3} = {A9F33119-8C8E-4681-A06A-719A9D72B0C8}
+		{EF14E139-C400-4185-BF83-2C46ACCE0561} = {A9F33119-8C8E-4681-A06A-719A9D72B0C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2561A982-6B21-4522-8093-C958017CDDA2}
+	EndGlobalSection
+EndGlobal
